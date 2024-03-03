@@ -1,0 +1,24 @@
+Package: PCI_ISSPP
+Title: Peritoneal cancer index [PCI]
+Version: 0.0.0.9000
+Authors@R: person('Tarkan', 'Jäger', email = 'tarkan.jaeger@gmail.com', role = c('cre', 'aut'))
+Description: Online tool to assess and document the peritoneal cancer index.
+License: MIT + file LICENSE
+Imports: 
+    config,
+    dplyr,
+    DT,
+    golem,
+    pkgload,
+    shiny,
+    shinyjs,
+    shinyWidgets,
+    tidyr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+Suggests: 
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Language: en-US

@@ -1,0 +1,19 @@
+.myColorText {
+  color: #009688; /* Teal text */
+}
+
+.myColorBackground {
+  background-color: #FFC107; /* Amber background */
+}
+
+@media print {
+  body {
+    color: #000000; /* Ensure text is black for readability */
+    background: #FFFFFF; /* White background to save printer ink */
+  }
+  .myColorText, .myColorBackground {
+    /* Ensuring specific elements retain their color even in print */
+    color: #009688; /* Teal text */
+    background-color: #FFC107; /* Amber background */
+  }
+}
